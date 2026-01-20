@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Ropa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>https://github.com/maye47/tienda-ropa/blob/main/index.html
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f7f7f7;
+        }
+        header {
+            background: #000;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .producto {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .producto h3 {
+            margin: 10px 0 5px;
+        }
+        .producto p {
+            color: #444;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #000;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mi Tienda de Ropa</h1>
+    <p>Moda para mujer</p>
+</header>
+
+<section class="container">
+
+    <div class="producto">
+        <img src="https://via.placeholder.com/300x350" alt="Blusa">
+        <h3>Blusa blanca</h3>
+        <p>$45.000</p>
+        <a class="btn" href="https://wa.me/573245692460?text=Hola,%20quiero%20la%20blusa%20blanca" target="_blank">
+            Comprar por WhatsApp
+        </a>
+    </div>
+
+    <div class="producto">
+        <img src="https://via.placeholder.com/300x350" alt="Vestido">
+        <h3>Vestido negro</h3>
+        <p>$80.000</p>
+        <a class="btn" href="https://wa.me/573245692460?text=Hola,%20quiero%20el%20vestido%20negro" target="_blank">
+            Comprar por WhatsApp
+        </a>
+    </div>
+
+    <div class="producto">
+        <img src="https://via.placeholder.com/300x350" alt="Jean">
+        <h3>Jean azul</h3>
+        <p>$70.000</p>
+        <a class="btn" href="https://wa.me/573245692460?text=Hola,%20quiero%20el%20jean%20azul" target="_blank">
+            Comprar por WhatsApp
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 - Mi emprendimiento</p>
+</footer>
+
+</body> 
+</html>
